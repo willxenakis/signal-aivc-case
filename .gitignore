@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+.next/
+.vercel/
+.pnpm-store/
+coverage/
+artifacts/evaluations/*.json
+tmp/
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+AIVC_Technical Challenge_Task.pdf
+docs/interview-guide.md

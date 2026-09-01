@@ -1,0 +1,914 @@
+{
+  "schemaVersion": "1.0",
+  "metadata": {
+    "name": "AIVC Intake Triage Blind Set v1",
+    "kind": "synthetic",
+    "purpose": "blind_evaluation",
+    "generatedBy": "independent case-author role",
+    "labeledBy": "two independent labeler roles with blind adjudication",
+    "independentLabels": true,
+    "frozenAt": "2026-09-01T01:26:59Z"
+  },
+  "cases": [
+    {
+      "id": "BLIND-YSCRH1",
+      "intake": {
+        "description": "We need a fully autonomous agent handling customer refunds end to end by next quarter, but our legal team has prohibited any use of generative AI or of customer data in model training. Also the integration team is fully booked for a year. Tell us how you'd deliver this.",
+        "industry": "retail",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "complex",
+        "useCase": "autonomous_refund_agent",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-L7HOAF",
+      "intake": {
+        "description": "Support inbox is at 9,000 unread after a product recall. Need automated triage and suggested replies live within a couple of weeks — can you move that fast?",
+        "industry": "manufacturing",
+        "companySize": "251-1000",
+        "urgency": "critical"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "simple",
+        "useCase": "support_email_triage",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-TXMAQB",
+      "intake": {
+        "description": "Every Monday we argue about which warehouse gets scarce stock. Want an allocation engine that makes the call from service targets and margin instead of whoever shouts loudest.",
+        "industry": "retail",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "stock_allocation_engine",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-3LSS0R",
+      "intake": {
+        "description": "We know AI is going to disrupt our sector and we don't want to be caught standing still. What do you have?",
+        "industry": "unknown",
+        "companySize": "251-1000",
+        "urgency": "low"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "ai_disruption_readiness",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-QNQU3W",
+      "intake": {
+        "description": "We've automated most of the transactional work in finance and now have 40 people whose roles need rethinking. Want support redesigning the function — new roles, skill paths, and some honest conversations about headcount.",
+        "industry": "energy_utilities",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "moderate",
+        "useCase": "finance_workforce_redesign",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-XJ7E6R",
+      "intake": {
+        "description": "Three vendors have pitched us near-identical genAI platforms and procurement wants a decision this month. Need an independent expert to run a structured comparison and tell us which one, if any, actually fits.",
+        "industry": "professional_services",
+        "companySize": "251-1000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "genai_vendor_selection",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-G5UHR5",
+      "intake": {
+        "description": "re: the ai thing my colleague mentioned after your webinar?? we r interested. pls send info + pricing thx",
+        "industry": "unknown",
+        "companySize": "1-50",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "general_ai_enquiry",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-2CAD86",
+      "intake": {
+        "description": "Radiology is drowning in re-typing: consultants dictate findings and then manually rebuild half of it as structured reports. We'd like an assistant that drafts the structured report from the dictation for the radiologist to approve. It would need clinical validation before anyone touches it, obviously.",
+        "industry": "healthcare",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "complex",
+        "useCase": "radiology_report_drafting",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-T6GXUB",
+      "intake": {
+        "description": "We process roughly 4,000 supplier invoices a month by hand. Three people do nothing but re-key PDFs into the ERP. Looking for an automated extraction workflow with a human check step for exceptions.",
+        "industry": "logistics",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "simple",
+        "useCase": "invoice_extraction_automation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-7QDC75",
+      "intake": {
+        "description": "We've built a deterioration-prediction algorithm in-house and the clinical safety officer won't sign off without formal validation and a safety case. Looking for a partner who knows both the statistics and the regulatory side of medical software.",
+        "industry": "healthcare",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "clinical_model_validation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-37UF4N",
+      "intake": {
+        "description": "Demand planning is still one analyst and a very large spreadsheet. Forecast error on promotional lines is over 40%. We want a proper statistical and ML forecasting capability covering our 12,000 SKUs.",
+        "industry": "retail",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "retail_demand_forecasting",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-QK5KOU",
+      "intake": {
+        "description": "Looking for a facilitator to run a one-day session with our leadership team so we stop arguing about what AI even means for a mid-size logistics operation and leave with three agreed priorities.",
+        "industry": "logistics",
+        "companySize": "251-1000",
+        "urgency": "low"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "leadership_alignment_workshop",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-Z6ZKXV",
+      "intake": {
+        "description": "Contact-centre handle times are killing us. We want an assistant that listens to the call, pulls up the right account info and drafts the after-call notes for agents. 300 seats. Where do we start?",
+        "industry": "telecom",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "complex",
+        "useCase": "contact_center_agent_assist",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-4SE78P",
+      "intake": {
+        "description": "Small ask hopefully — an internal chatbot that answers staff questions about leave, expenses and benefits straight from our policy documents.",
+        "industry": "professional_services",
+        "companySize": "51-250",
+        "urgency": "low"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "simple",
+        "useCase": "hr_policy_chatbot",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-35YE6A",
+      "intake": {
+        "description": "This agency runs an automated eligibility screening tool. An ombudsman review recommended we improve transparency, contestability and documentation. We need practical help meeting those recommendations without shutting the service down.",
+        "industry": "government",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "eligibility_screening_remediation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-GG2P1G",
+      "intake": {
+        "description": "HR director here. We're creating an 'AI oversight committee' but nobody can tell me who should sit on it, what it decides, or how it relates to the existing risk committees. That's the help I need — org design, not technology.",
+        "industry": "financial_services",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "moderate",
+        "useCase": "ai_oversight_committee_design",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-8LW1ZK",
+      "intake": {
+        "description": "urgent!!! boss came back from an offsite saying we need 'the works' on ai — audit? build? training? he didnt say and has gone travelling. we have data, lots of it. pls advise what u would do",
+        "industry": "unknown",
+        "companySize": "51-250",
+        "urgency": "critical"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "general_ai_enquiry",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-GJ8DOS",
+      "intake": {
+        "description": "Planning team needs to simulate load growth scenarios as EV adoption climbs in our service territory — where the grid breaks first and which reinforcements buy the most headroom.",
+        "industry": "energy_utilities",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "grid_load_simulation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-2FELOB",
+      "intake": {
+        "description": "Second-line risk team looking for external support validating three credit decisioning models — conceptual soundness, ongoing monitoring, documentation, the works. Our regulator has already asked questions.",
+        "industry": "financial_services",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "credit_model_validation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-6SJZD9",
+      "intake": {
+        "description": "Group exec has signed off an ambition to be 'AI-first' across our retail bank, insurance arm and wealth business within three years. We need help turning that slogan into a sequenced transformation roadmap — where to start, which capabilities to build versus buy, how the investment case stacks up per division, and what we tell the regulator. Expect heavy stakeholder work across at least nine business units.",
+        "industry": "financial_services",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "complex",
+        "useCase": "ai_transformation_roadmap",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-FJGJHI",
+      "intake": {
+        "description": "Group risk wants a responsible-AI framework covering all subsidiaries — policies, model inventory, risk tiering, testing standards, audit trails — that satisfies three different national regulators. The existing draft was rejected as too abstract to operationalise.",
+        "industry": "insurance",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "responsible_ai_framework",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-7DHME8",
+      "intake": {
+        "description": "Unplanned downtime on our stamping lines cost us eight figures last year. Sensors are already installed; we want models that predict failures early enough for planned intervention, plus integration into the maintenance planning process.",
+        "industry": "manufacturing",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "predictive_maintenance",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-MLZG7O",
+      "intake": {
+        "description": "Nurse rostering takes our ward managers a full week each month and still leaves gaps. Looking at optimization software or a custom solver — we need advice and probably implementation help.",
+        "industry": "healthcare",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "nurse_rostering_optimization",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-8ZBD7Y",
+      "intake": {
+        "description": "Compliance has flagged that several of our underwriting and pricing models will likely count as high-risk under incoming AI regulation. We need a readiness assessment, a gap analysis against the requirements, and a remediation plan the board can actually track.",
+        "industry": "insurance",
+        "companySize": "5000+",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "ai_regulation_readiness",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-V2LU5L",
+      "intake": {
+        "description": "Shared services runs finance, HR and procurement transactions for the whole group, about 1,100 FTEs. Our exec sponsor wants an ambitious multi-year program of intelligent agents and workflow automation across all three towers, starting with two lighthouse processes. We need a partner for design and delivery, not just slideware.",
+        "industry": "manufacturing",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "complex",
+        "useCase": "shared_services_automation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-S4DXP2",
+      "intake": {
+        "description": "Our board keeps asking what our AI strategy is and honestly we don't have one. Mid-sized food producer, mostly spreadsheets and an old ERP. Looking for someone to run an opportunity assessment and give us a prioritized shortlist we can actually fund.",
+        "industry": "manufacturing",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "moderate",
+        "useCase": "ai_opportunity_assessment",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-IFYFYU",
+      "intake": {
+        "description": "Fuel is up 30% and our routing is basically 'the drivers know best'. Want dynamic route optimization across a 400-vehicle fleet, integrated with the dispatch system.",
+        "industry": "logistics",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "complex",
+        "useCase": "fleet_route_optimization",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-HTZESN",
+      "intake": {
+        "description": "Partners spend weekends assembling pitch documents from old decks. I'd like a tool that drafts first-pass proposals from our credentials database and past engagements. Needs to sound like us, not like a robot.",
+        "industry": "professional_services",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "simple",
+        "useCase": "proposal_drafting_assistant",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-ELUBWR",
+      "intake": {
+        "description": "Our underwriters range from enthusiastic to openly hostile about the new pricing models. We need a structured upskilling program — what the models do, when to override them, how the role changes — for about 220 people across three countries.",
+        "industry": "insurance",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "moderate",
+        "useCase": "underwriter_upskilling_program",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-DB427U",
+      "intake": {
+        "description": "Before we launch our genAI features to enterprise customers we want a serious adversarial test — prompt injection, data exfiltration, jailbreaks — plus advice on hardening. Prefer someone who has actually done this, not just read about it.",
+        "industry": "technology",
+        "companySize": "51-250",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "moderate",
+        "useCase": "genai_red_teaming",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-7EZ7MF",
+      "intake": {
+        "description": "We can build models fine; we cannot run them as products. Debate raging between a central AI team and federated squads in the business. Need help designing the operating model — roles, funding, governance forums, career paths — and the transition plan to get there.",
+        "industry": "life_sciences",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "complex",
+        "useCase": "ai_operating_model_design",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-AJVG6V",
+      "intake": {
+        "description": "R&D group here. We're trying to connect compound data, assay results and study reports so scientists can actually query across them — thinking a semantic layer or ontology over the lake. Has to respect GxP constraints. Do you do this kind of knowledge infrastructure work?",
+        "industry": "life_sciences",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "complex",
+        "useCase": "research_semantic_layer",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-GVF9D3",
+      "intake": {
+        "description": "AI opportunity scan for our claims department, nothing fancy",
+        "industry": "insurance",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "claims_opportunity_scan",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-D56O8O",
+      "intake": {
+        "description": "forcast accuracy for spare parts is terrible, help",
+        "industry": "manufacturing",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "simple",
+        "useCase": "spare_parts_forecasting",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-CJ1P4C",
+      "intake": {
+        "description": "We rolled out an enterprise copilot licence to 8,000 staff last year. Usage peaked at 11% and is falling. Before we renew, we want a proper adoption push — training, champions, workflow redesign — or evidence we should cut our losses.",
+        "industry": "financial_services",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "complex",
+        "useCase": "copilot_adoption_program",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-7TYZOZ",
+      "intake": {
+        "description": "Operating theatres sit idle 20% of booked time while waiting lists grow. We'd like predictive scheduling that accounts for overruns and cancellations. Our informatics team can build but needs the modelling expertise.",
+        "industry": "healthcare",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "theatre_predictive_scheduling",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-031RHX",
+      "intake": {
+        "description": "Second attempt at rolling out AI-assisted quality inspection has failed — line supervisors quietly went back to the old process within a month, and the works council has concerns. We clearly have a change problem, not a technology problem. Help.",
+        "industry": "manufacturing",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "moderate",
+        "useCase": "quality_inspection_adoption",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-Y8DKVE",
+      "intake": {
+        "description": "The CEO promised the board 'an AI strategy and a working showcase' within eight weeks, so we need the strategy work and a demonstrable customer-facing pilot delivered together, and nobody internally agrees which one comes first or matters more. Can one firm do both at once?",
+        "industry": "unknown",
+        "companySize": "251-1000",
+        "urgency": "critical"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "complex",
+        "useCase": "ai_strategy_with_pilot",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-05GB9K",
+      "intake": {
+        "description": "we have 23 AI 'initiatives' according to the innovation team and maybe 3 matter. someone needs to come in, kill the zombies, and set up a proper portfolio process so this doesnt happen again",
+        "industry": "telecom",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "moderate",
+        "useCase": "ai_portfolio_rationalization",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-PK14YZ",
+      "intake": {
+        "description": "Looking for a practical AI literacy curriculum for our 60 people managers — not a vendor demo, actual skills: what to automate, how to judge outputs, where the risks sit.",
+        "industry": "government",
+        "companySize": "251-1000",
+        "urgency": "low"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "simple",
+        "useCase": "ai_literacy_curriculum",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-64WGFB",
+      "intake": {
+        "description": "Field engineers waste hours hunting through 30 years of turbine manuals and inspection records. We'd like to build a knowledge base that links equipment, documents and sensor history so answers are findable. Not sure if that's a 'knowledge graph' but that's the phrase our architect keeps using.",
+        "industry": "energy_utilities",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "moderate",
+        "useCase": "equipment_knowledge_graph",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-36BBUK",
+      "intake": {
+        "description": "chatbot for our webshop, whats it cost",
+        "industry": "retail",
+        "companySize": "1-50",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "simple",
+        "useCase": "ecommerce_chatbot",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-HRJRLU",
+      "intake": {
+        "description": "need an acceptable-use policy for staff use of genAI tools, board meeting in two weeks wants a draft",
+        "industry": "professional_services",
+        "companySize": "1-50",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "simple",
+        "useCase": "genai_acceptable_use_policy",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-APNC13",
+      "intake": {
+        "description": "We want internal teams to consume curated, governed data products through a marketplace instead of raiding each other's databases. Need help with the design of the product model, the ownership question, and the platform tooling underneath.",
+        "industry": "telecom",
+        "companySize": "5000+",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "complex",
+        "useCase": "data_product_marketplace",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-PMYCG5",
+      "intake": {
+        "description": "Following an incident involving one of our automated decision systems we have given a formal undertaking to our regulator, and a 90-day clock is now running. The work touches the model itself, the surrounding controls, and how staff were trained to use it, and frankly we do not yet know what kind of help we need first. Senior people only please.",
+        "industry": "government",
+        "companySize": "5000+",
+        "urgency": "critical"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "regulatory_incident_remediation",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-7BSZ5F",
+      "intake": {
+        "description": "vector search stack review",
+        "industry": "unknown",
+        "companySize": "1-50",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "simple",
+        "useCase": "vector_search_review",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-V19QTU",
+      "intake": {
+        "description": "First notice of loss still comes in by email and phone. We want intake automated — extract the details, check the policy, route to the right adjuster, draft the acknowledgement. Regulators will want the audit trail so keep that in mind.",
+        "industry": "insurance",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_applications_automation",
+        "complexity": "moderate",
+        "useCase": "fnol_intake_automation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-JJ0SF0",
+      "intake": {
+        "description": "Post-merger we have two of everything — two warehouses, two BI stacks, two ML platforms. Group CTO wants one target-state data and AI platform and a migration path that doesn't stall the business for two years. Big, political, and urgent from where I sit.",
+        "industry": "financial_services",
+        "companySize": "5000+",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "complex",
+        "useCase": "post_merger_platform_consolidation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-OYRPN4",
+      "intake": {
+        "description": "We're exploring a digital twin of our busiest distribution centre to test layout changes and staffing scenarios before committing capital. Interested in scoping what's feasible with the sensor and WMS data we already collect.",
+        "industry": "logistics",
+        "companySize": "5000+",
+        "urgency": "low"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "moderate",
+        "useCase": "warehouse_digital_twin",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-856HR8",
+      "intake": {
+        "description": "Group wants to stand up a proper load and demand forecasting capability — the data pipelines, the platform, and the models themselves are all either missing or homegrown. Nobody can agree whether to start with the plumbing or the forecasting models; the last consultancy said both and delivered neither. How would you scope this?",
+        "industry": "energy_utilities",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "decision_intelligence_operations",
+        "complexity": "complex",
+        "useCase": "load_forecasting_capability",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-6YH0SN",
+      "intake": {
+        "description": "Our data scientists have 40+ models running out of notebooks on someone's laptop. No versioning, no monitoring, no automated retraining. Need help standing up proper MLOps before something breaks in production.",
+        "industry": "technology",
+        "companySize": "51-250",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "moderate",
+        "useCase": "mlops_platform_setup",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-VPZ21V",
+      "intake": {
+        "description": "we started a RAG proj for our support docs but retrieval is garbage, embeddings pipeline was built by an intern. need someone to redo the ingestion + chunking + eval setup properly",
+        "industry": "technology",
+        "companySize": "51-250",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "simple",
+        "useCase": "rag_pipeline_rebuild",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-A2XAIZ",
+      "intake": {
+        "description": "Urgent. Our customer-facing chatbot reproduced fragments of another customer's account details in a reply yesterday. Legal is involved. We need an immediate independent review of the system, containment advice, and a remediation plan.",
+        "industry": "telecom",
+        "companySize": "1001-5000",
+        "urgency": "critical"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "chatbot_privacy_incident",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-RK1EAY",
+      "intake": {
+        "description": "Honest assessment wanted: our data science group ships nothing. Great prototypes, no products. I suspect we need product managers and different ways of working rather than more PhDs. Can you evaluate and help us restructure how AI work gets prioritized, staffed and delivered?",
+        "industry": "technology",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "moderate",
+        "useCase": "ai_delivery_operating_model",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-T8UZXE",
+      "intake": {
+        "description": "Can you assess the data quality in our shipment tracking warehouse? Ops says its fine, analytics disagrees, we need a neutral verdict and a fix list.",
+        "industry": "logistics",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "simple",
+        "useCase": "data_quality_assessment",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-4VPW7I",
+      "intake": {
+        "description": "Question for you — should we build our own models on our clinical data or license something off the shelf? We keep going back and forth internally and need an outside perspective plus a rough business case either way.",
+        "industry": "life_sciences",
+        "companySize": "251-1000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "simple",
+        "useCase": "build_vs_buy_assessment",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-YRDY2U",
+      "intake": {
+        "description": "The board requires our new decision engine to run fully autonomously with no human in the loop, while group policy mandates individual human sign-off on every single decision it makes. At the same time we must cut model-related spend to zero this year and double the number of decisions covered. All four constraints have been declared non-negotiable. What would you even propose?",
+        "industry": "insurance",
+        "companySize": "1001-5000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "autonomous_decision_engine",
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "BLIND-P1SX81",
+      "intake": {
+        "description": "Every AI demo we build dies because the underlying data is a mess — customer records in six systems, no common definitions, nightly batch jobs held together with duct tape. We want to invest in a proper foundation: integrated pipelines, governed data products, clear ownership. Guidance on architecture and a realistic sequencing plan would help.",
+        "industry": "manufacturing",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "complex",
+        "useCase": "data_foundation_architecture",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-O3FWI5",
+      "intake": {
+        "description": "need help w/ change managment comms for our ai rollout, hr is swamped",
+        "industry": "healthcare",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "adoption_operating_model",
+        "complexity": "simple",
+        "useCase": "change_management_comms",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "BLIND-EIKB29",
+      "intake": {
+        "description": "An employment lawyer has queried whether our CV-screening tool disadvantages certain applicants. HR wants an independent fairness audit done properly and quickly, with a report we could show a tribunal if it comes to that.",
+        "industry": "retail",
+        "companySize": "5000+",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_governance_risk_security",
+        "complexity": "complex",
+        "useCase": "cv_screening_fairness_audit",
+        "reviewRequired": false
+      }
+    }
+  ]
+}

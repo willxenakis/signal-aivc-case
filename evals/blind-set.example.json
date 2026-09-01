@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "metadata": {
+    "name": "Example schema - replace with independently authored cases",
+    "kind": "synthetic",
+    "purpose": "development",
+    "generatedBy": "project example author",
+    "labeledBy": "project example author",
+    "independentLabels": false,
+    "frozenAt": null
+  },
+  "cases": [
+    {
+      "id": "EXAMPLE-ALPHA",
+      "intake": {
+        "description": "Different departments calculate customer status differently, and teams need one controlled source before they can safely launch more machine-learning products.",
+        "industry": "retail",
+        "companySize": "1001-5000",
+        "urgency": "standard"
+      },
+      "expected": {
+        "serviceLine": "data_ai_platforms",
+        "complexity": "complex",
+        "useCase": "governed_customer_data_foundation",
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "EXAMPLE-BRAVO",
+      "intake": {
+        "description": "Our leadership wants to decide which three operational problems are worth funding first and agree how value will be measured before approving any pilots.",
+        "industry": "manufacturing",
+        "companySize": "251-1000",
+        "urgency": "high"
+      },
+      "expected": {
+        "serviceLine": "ai_strategy_value",
+        "complexity": "moderate",
+        "useCase": "ai_opportunity_prioritization",
+        "reviewRequired": false
+      }
+    }
+  ]
+}
